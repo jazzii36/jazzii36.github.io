@@ -153,4 +153,4 @@ if share_url is not None:
 
 `curl -o output_file --header "Range: bytes=0-99" "http://192.168.110.222:9000/testbucket/test.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=diaohui%2F20231213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231213T075359Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1721671bc7105fc8975a147b1f8d0e7e80e39c21efc6c14b8338d8cbeac12d32"`  
 #### 文件效果：  
-![01.png](report/HTTP_Range/01.png)
+![01.png](/01.png)
