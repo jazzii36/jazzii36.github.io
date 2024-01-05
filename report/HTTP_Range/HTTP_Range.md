@@ -39,7 +39,8 @@ HTTP/HTTPS:从HTTP1.1开始支持，断点续传的关键特性是利用HTTP头�
 ### 结论
 每张芯片24个DLOC使用7Z压缩后约占磁盘100-110MB，10张芯片1个G，目前大文件的传输靠U盘，小文件的传输靠HTTP，但使用U盘并不意味着杜绝客户使用HTTP进行下载，从上面可以看出使用客户端可以极大的减轻服务器负载压力，减少错误发生，提升整体业务的可靠性行和稳定性，并提供更流畅和稳定的用户体验。
 Minio Share URL的配置
-## 服务端
+## MINIO SDK源码与调用
+### MINIO SDK源码
 Minio是一个高性能的对象存储服务，支持断点续传。生产系统产生的DLOC文件进入Minio进行存储和管理。同时借助Minio share URL方法，可以实现文件供外部客户临时访问。  
 以下是Minio share URL SDK源码：  
 
@@ -103,8 +104,8 @@ Minio的SHARE_URL已经封装了对HTTP头Range头的处理过程，所以客户
 获取该存储对象前100个字节片段  
 `curl -o output_file --header "Range: bytes=0-99" <shareurl>`
 
-### 完整实例
-#### 服务端：
+## 完整实例
+### 服务端实现：
 ```
 
 import minio
@@ -149,8 +150,8 @@ if share_url is not None:
     print('文件大小:', file_size)
     print('上传时间:', upload_time)
 ```
-#### 客户端： 
+### 客户端实现： 
 
 `curl -o output_file --header "Range: bytes=0-99" "http://192.168.110.222:9000/testbucket/test.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=diaohui%2F20231213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231213T075359Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1721671bc7105fc8975a147b1f8d0e7e80e39c21efc6c14b8338d8cbeac12d32"`  
-#### 文件效果：  
+### 文件效果：  
 ![01.png](/01.png)
