@@ -14,7 +14,7 @@
     window.$docsify = {
       executeScript: true,
       loadSidebar: true,
-      homepage: 'report/HTTP_Range/HTTP_Range.md',
+      homepage: 'ch01',
       subMaxLevel: 2,
       maxLevel: 4,
       coverpage: false,
@@ -28,7 +28,15 @@
         text: "<font color='#888888'> 上次更新: {docsify-updated}</font>",
         formatUpdated: "{YYYY}/{MM}/{DD} {HH}:{mm}",
         whereToPlace: "bottom"},
-
+      search: {
+        search: true, // default
+        maxAge: 86400000, // Expiration time, the default one day
+        paths:'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        depth: 6,// Headline depth, 1 - 6
+        hideOtherSidebarContent: false
+        }
     }
   </script>
 
