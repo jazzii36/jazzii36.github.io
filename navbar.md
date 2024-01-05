@@ -2,4 +2,4 @@
   - [HTTP断点续传技术及其在minio中的实践](report/HTTP_Range/HTTP_Range)
   - [SMB、FTP协议下传输速度测试与分析](report/SMBvsFTP/SMBvsFTP.md)
 - 踩坑血泪
-  - [docsify发布githubpage](fuck/docsify发布githubpage.md)
+  - [docsify push githubpage](fuck/docsify push githubpage.md)

@@ -1,6 +1,6 @@
-## github的jekyll构建静态项目时忽略掉`_`开头文件
+## docsify push github <!-- {docsify-ignore} -->
 ### 问题描述
-1. docsify 项目特殊文件，如`_sidebar.md`,`_navbar.md`规范要求以`_ `开头 。
+1. 当我们用docsify试图发布到github.io时，docsify 项目特殊文件，如`_sidebar.md`,`_navbar.md`规范要求以`_ `开头 。
 2. 当我们将项目推送github page时，github page默认generate引擎是jekyll，整个jekyll默认会将`_`开头的文件忽视掉，导致所有页面都会没有侧边导航栏。
 ### 解决办法
 1. 网上做法是项目中添加`.nojekyll`空文件，注意不要被git ignore，实测无效。
