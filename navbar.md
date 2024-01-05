@@ -1,5 +1,5 @@
 - 技术
-  - [HTTP断点续传原理及在MINIO的应用](report/HTTP_Range/HTTP_Range)
+  - [HTTP断点续传技术及其在minio中的实践](report/HTTP_Range/HTTP_Range)
   - [SMB、FTP协议下传输速度测试与分析](report/SMBvsFTP/SMBvsFTP.md)
 - 踩坑血泪
-  - [ch01.md](ch01.md)
+  - [docsify发布githubpage](fuck/docsify发布githubpage.md)
