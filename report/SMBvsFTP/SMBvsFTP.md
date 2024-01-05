@@ -50,4 +50,4 @@
 
 ## 参考资料
 [SMB Message Structure](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cifs/4d330f4c-151c-4d79-b207-40bd4f754da9)  
-[FTP-RFC959.pdf](report/SMBvsFTP/RFC959.pdf)
+[FTP-RFC959.pdf](report/SMBvsFTP/RFC959.pdf ":include")
