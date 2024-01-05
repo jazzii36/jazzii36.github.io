@@ -1,1 +1,1 @@
-- [docsify push githubpage](fuck/docsify push githubpage.md)
+- [docsify push githubpage](fuck/docsify_push_githubpage.md)
