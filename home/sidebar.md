@@ -1,1 +1,1 @@
-- [阿里云DDNS](ddns.md)
+- [阿里云DDNS](home/ddns.md)
