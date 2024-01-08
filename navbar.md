@@ -3,3 +3,5 @@
   - [SMB、FTP协议下传输速度测试与分析](report/SMBvsFTP/SMBvsFTP.md)
 - 踩坑血泪
   - [docsify push githubpage](fuck/docsify_push_githubpage.md)
+- 实践
+  - [搭建低功耗的家庭服务器](home/ddns.md)
