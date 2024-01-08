@@ -1,1 +1,1 @@
-[ddns.md](ddns.md)
+[阿里云DDNS](ddns.md)
