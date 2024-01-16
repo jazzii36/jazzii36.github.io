@@ -1,3 +1,2 @@
-- [HTTP断点续传技术及其在minio中的实践](report/HTTP_Range/HTTP_Range)
+- [HTTP断点续传技术及其在minio中的实践](report/HTTP_Range/HTTP_Range.md)
 - [SMB、FTP协议下传输速度测试与分析](report/SMBvsFTP/SMBvsFTP.md)
-- [通用权限控制系统设计方案(ABAC)](report/authority/authority.md)
